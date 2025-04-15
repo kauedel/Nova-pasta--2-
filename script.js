@@ -21,7 +21,7 @@ ctx.fillRect(this.x, this.y, this.largura, this.altura);
 class Jogador extends Entidade {
 constructor() {
 super(canvas.width/2 - 25, canvas.height - 60, 50, 50, '#3498db');
-this.velocidade = 7;
+this.velocidade = 15;
 }
 
 mover(direcao) {
